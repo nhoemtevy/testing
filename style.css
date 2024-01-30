@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Kantumruy Pro";
+  margin: 0;
+  color: white;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./Image/photo_2024-01-29_09-03-52.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & > p {
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.304);
+    padding: 8px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+
+  & .homecard {
+   position: absolute;
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.304);
+    padding: 15px 30px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    & p {
+        margin: 15px 0;
+    }
+    & button {
+      padding: 10px 20px;
+      color: black;
+      border-radius: 15px;
+      border: none;
+      background-color: orange;
+    }
+
+  }
+}
